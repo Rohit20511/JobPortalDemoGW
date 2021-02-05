@@ -34,11 +34,16 @@ Job Portal provides the following endpoints and methods:
 3.	Readme to setup local environment
 -----------------------------------------------------------------------------------
 Please follow below steps to setup local environment : 
+-------------------
 a.	Unzip backend and frontend 
+-------------------
 b.	Start Backend 
+-------------------
     Go to backend folder and run npm i
     Post successful installation, Start the server : npm start 
+-------------------
 c.	Start Frontend
+-------------------
     Go to frontend folder and run npm i
     Post successful installation , run  npm start 
     
