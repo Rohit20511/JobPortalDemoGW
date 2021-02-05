@@ -19,8 +19,10 @@ Contents:
 
 We have defined the following set of actions that we can achieve using this Web Application
 -
-*a.	Webpage where user can scroll through a list of job openings in jobs DB. We can add jobs by making an API call *
-*b.	Once user clicks on any job details tile , user gets Job Description from a backend API *
+a.	Webpage where user can scroll through a list of job openings in jobs DB. We can add jobs by making an API call.
+
+b.	Once user clicks on any job details tile , user gets Job Description from a backend API.
+
 c.	After click on apply button, we are storing candidate details in MongoDB keeping JobID as reference. 
 
 -----------------------------------------------------------------------------------
