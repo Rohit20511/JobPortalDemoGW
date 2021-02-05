@@ -4,9 +4,9 @@ https://jobportal-855e6.web.app/
 Contents: 
 ===================================================================================
 1.	Job Portal 
-1.1	A backend (Nodejs) 
-1.2	A UI (ReactJS)
-1.3	A database (MongoDB)
+        1.1	A backend (Nodejs) 
+        1.2	A UI (ReactJS)
+        1.3	A database (MongoDB)
 2.	API Documentation 
 3.	Readme to setup local environment 
 4.	Hosted solution
