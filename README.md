@@ -17,12 +17,10 @@ Contents:
 1.	JobPortal : 
 -----------------------------------------------------------------------------------
 
-We have defined the following set of actions that we can achieve using this Web Application.
--------------------
+We have defined the following set of actions that we can achieve using this Web Application
+-
 a.	Webpage where user can scroll through a list of job openings in jobs DB. We can add jobs by making an API call.
--------------------
 b.	Once user clicks on any job details tile , user gets Job Description from a backend API 
--------------------
 c.	After click on apply button, we are storing candidate details in MongoDB keeping JobID as reference. 
 
 -----------------------------------------------------------------------------------
@@ -38,7 +36,7 @@ Job Portal provides the following endpoints and methods:
 3.	Readme to setup local environment
 -----------------------------------------------------------------------------------
 Please follow below steps to setup local environment : 
--------------------
+-
 a.	Unzip backend and frontend 
 -------------------
 b.	Start Backend 
