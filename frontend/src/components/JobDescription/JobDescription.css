@@ -1,0 +1,52 @@
+.jobDescription{
+  height: 100%;
+}
+.jobDescription__main{
+  height: calc(100% - 148px);
+  width: 60%;
+  margin: auto;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: 1px 4px 3px 1px rgb(199, 199, 199);
+  padding: 1rem;
+}
+.jobInfo{
+  display: flex;
+  gap:1rem;
+}
+.jobInfo__logo{
+  height:100px;
+  width: 100px;
+}
+.jobInfo__logo img{
+  width: 100%;
+}
+.jobInfo__details{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.jobInfo__details p{
+margin: 0;
+}
+.applyButton{
+  align-self: flex-end;
+}
+.applyButton button{
+  outline: none;
+  padding: .6rem 2rem;
+  background: lightgray;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.applyButton button:hover{
+  background: black;
+  color: white;
+}
+.description{
+  border-top: 1px solid rgb(199, 199, 199);
+  margin-top: 1.5rem;
+}

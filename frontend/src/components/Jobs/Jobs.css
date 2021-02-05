@@ -1,0 +1,17 @@
+.jobs{
+  height: 100%;
+}
+.jobList{
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 77%;
+  gap:2rem;
+  min-height: calc(100% - 148px);
+}
+@media(max-width:40rem){
+  .jobList{
+    margin: 0 .5rem;
+  }
+}

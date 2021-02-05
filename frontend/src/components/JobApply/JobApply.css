@@ -1,0 +1,72 @@
+.jobApply{
+  height: 100%;
+}
+.applied{
+  height: calc(100% - 148px);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.applied h2{
+  color: grey;
+}
+.jobApply__form{
+  height: calc(100% - 148px);
+  width: 60%;
+  margin: auto;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: 1px 4px 3px 1px rgb(199, 199, 199);
+}
+.jobApply__details{
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: 1rem 2rem;
+}
+.jobApply__details p,.jobApply__details h3{
+  margin:0;
+}
+.apply__form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(199, 199, 199);
+  height: 65%;
+}
+.form__input{
+  display: flex;
+}
+.form__input label{
+  padding-left: 2rem;
+  width: 16rem;
+}
+.form__input input{
+  background: rgb(233, 233, 233);
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  margin-right: 4rem;
+  padding: .5rem 0.5rem;
+}
+.form__submit button{
+  outline: none;
+  padding: .6rem 2rem;
+  background: transparent;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: 1px 4px 3px 1px rgb(199, 199, 199);
+  cursor: pointer;
+}
+.form__submit button:hover{
+  color: white;
+  background: black;
+  box-shadow: none;
+}
+.form__submit{
+  margin-top: 1rem;
+  text-align: center;
+}

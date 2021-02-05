@@ -1,0 +1,32 @@
+.job{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 200px;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: 1px 4px 3px 1px rgb(199, 199, 199);
+  border-radius: .5rem;
+  padding: .5rem;
+  cursor: pointer;
+}
+.job:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.job__details{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.job__logo{
+  width: 4.1rem;
+  height: 4.1rem;
+}
+.job__logo img{
+  width: 100%;
+}
+.job p{
+  margin: 0;
+  padding: 4px 0;
+}

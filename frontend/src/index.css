@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+
+}
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+body {
+ margin: 0;
+ width: 100%;
+ height: 100%;
+ transition: none;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
