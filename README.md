@@ -19,9 +19,9 @@ Contents:
 
 We have defined the following set of actions that we can achieve using this Web Application
 -
-a.	Webpage where user can scroll through a list of job openings in available in the platform. We can add jobs by making an API call.
+a.	Webpage where user can scroll through a list of job openings available in the platform. We can add jobs by making an API call.
 
-b.	Once user clicks on any job details tile , user gets Job Description from a backend API.
+b.	Once user clicks on any job details tile ,user gets Job Description from a backend API.
 
 c.	After click on apply button, we are storing candidate details in MongoDB keeping JobID as reference. 
 
@@ -31,8 +31,8 @@ c.	After click on apply button, we are storing candidate details in MongoDB keep
 Job Portal provides the following endpoints and methods:
 1.	/job/details (POST) : This endpoint allows you to create Jobs which admin wants to post on the portal.
 2.	/job/details (GET)  : This endpoint allows user to fetch all the jobs available in the system
-3.	/job/:jobId   (GET) : This endpoint allows you to fetch a particular Job details by it’s jobID.
-4.	/applicant    (POST) : This endpoint allows you to store applicant details inside DB post click on apply button.
+3.	/job/:jobId  (GET)  : This endpoint allows you to fetch a particular Job details by it’s jobID.
+4.	/applicant   (POST) : This endpoint allows you to store applicant details inside DB post click on apply button.
 
 -----------------------------------------------------------------------------------
 3.	Readme to setup local environment
